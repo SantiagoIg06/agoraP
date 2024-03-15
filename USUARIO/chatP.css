@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+}
+.logos {
+    padding: 0px 0px 0px 20px;
+    height: 100px;
+    width: 160px;
+}
+
+.navcompleta {
+    height: 5%;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+}
+li {
+    margin: 10px;
+}
+.nav{
+    width: 100%;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav_lg_sg {
+    color: white;
+}
+button.btn.btn-primary.me-3 {
+    width: 40%;
+}
+.nav_lg_sg2 {
+    color: black;
+}
+.btnBuscar {
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+#profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  #chat-list {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #chat-list .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #chat-list .chat-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  #chat-window {
+    height: 400px;
+    width: 300px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #message-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #message-input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #send-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  .header img {
+    height: 40px;
+}
+  footer {
+    height: 5%;
+    color: rgb(68, 68, 68);
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

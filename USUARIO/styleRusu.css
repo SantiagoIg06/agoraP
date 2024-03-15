@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.registrar {
+    background-color: rgba(0, 174, 255, 0.712);
+}
+div.contP {
+    padding: 5px 48px 48px 48px !important;
+    background-color: rgb(15, 27, 41);
+    border-radius: 14px;
+    color: white;
+}
+.contentImg {
+    display: flex;
+    justify-content: center;
+}
+.logos {
+    padding: 0px;
+    height: 160px;
+    width: 200px;
+}
+.log {
+    padding: 20px;
+}
+.text-white-50 {
+    text-decoration: none !important;
+}
+footer {
+    color: rgb(68, 68, 68);
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
