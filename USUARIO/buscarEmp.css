@@ -146,6 +146,7 @@ button.btn.btn-primary.me-3 {
   }
   
   .chat-button {
+    text-decoration: none !important;
     background-color: #1ee0ee;
     color: rgb(0, 0, 0);
     border: none;
@@ -167,6 +168,7 @@ button.btn.btn-primary.me-3 {
     height: 40px;
   }
   footer {
+    margin: 30px 0px 0px 0px ;
     color: rgb(68, 68, 68);
     background-color: rgb(15, 15, 15);
     display: grid;

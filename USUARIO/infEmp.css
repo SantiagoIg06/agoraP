@@ -70,7 +70,6 @@ h2 {
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid #ddd;
-    cursor: pointer;
 }
 
 .company-card:hover {
@@ -109,6 +108,7 @@ h2 {
    border: 1px solid black;
 }
 footer {
+    margin: 30px 0px 0px 0px ;
     height: 5%;
     color: rgb(68, 68, 68);
     background-color: rgb(15, 15, 15);
