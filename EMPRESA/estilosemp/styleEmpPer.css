@@ -1,0 +1,62 @@
+
+.logos {
+    padding: 0px 0px 0px 20px;
+    height: 100px;
+    width: 160px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja{
+    min-height: 950px;
+    background-color: white;
+    width: 70%;
+    margin: 200px 150px 100px;
+    padding: 3rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+
+}
+.menu{
+    display: flex;
+}
+
+.flex-container{
+    min-height: 950px;
+    background: #246fed;
+    text-align: center;
+}
+
+.imagenPerfilEmp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.caja h1 {
+    font-size: 3.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px;
+}
+
+
+
+.caja h2 {
+    font-size: 2.5rem;
+    color: #615151;
+    font-family: "Open Sans", sans-serif;
+    margin: 50px;
+}
+.caja button{
+    font-family: "Agbalumo", system-ui;
+    margin: 20px;
+}
