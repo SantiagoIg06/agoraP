@@ -15,41 +15,55 @@
 <body>
     <header>
         <div>
-            <nav class="navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
-            <div class="container">
-              <a class="navbar-brand me-2" href="/index.html">
+          <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
                 <img
-                class="logos" src="/imagenes/logosSimbolos/logo1.png" alt="Logo"
-                height="16"
-                alt="/index.html"
-                loading="lazy"
-                style="margin-top: -1px;">
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
-                            </li>
-                            </ul>          
-                        <div class="d-flex align-items-center">
-                            <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2">
-                                <a class="nav_lg_sg2" href="/iniciarsesion.html">Login</a>
-                            </button>
-                            <button data-mdb-ripple-init type="button" class="btn btn-primary me-3">
-                                <a class="nav_lg_sg" href="/registrar.html">Sign up</a>
-                            </button>
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </div>
-                    </div>
+                    class="logos" src="/EMPRESA/imagenes/logo1.png" alt="Logo"
+                    height="83"
+                    width="100"
+                    alt="/perfilEmpresa.html"
+                    loading="lazy"
+                    style="margin-top: -1px;">
+                    
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img
+                    class="logos" src="/EMPRESA/imagenes/logo1.png" alt="Logo"
+                    height="83"
+                    width="100"
+                    alt="/EMPRESA/perfilEmpresa.html"
+                    loading="lazy"
+                    style="margin-top: -1px;">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-            </nav>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/USUARIO/usuarioInf.html">Mi perfil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/USUARIO/buscarEmp.html">Busqueda de Ttrabajos</a>
+                    </li>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
-        
     </header>
-    <div class="header">
-      <a href="/USUARIO/usuarioInf.html" style="text-decoration: none; font-size: 20px;"><img src="/imagenes/logosSimbolos/perfil.png" alt="Logo"> #</a>
-    </div>
     <section id="trabaj">
     <h2>Nuestros Trabajos</h2>
     <div class="filters">

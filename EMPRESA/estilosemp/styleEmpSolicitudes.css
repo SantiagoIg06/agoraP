@@ -96,3 +96,15 @@ section{
 .c6{
     grid-column: 1/5;
 }
+
+footer {
+    color: rgb(68, 68, 68);
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
