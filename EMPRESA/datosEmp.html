@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styleRegistrar.css">
-    <title>Agora registrar</title>
+    <link rel="stylesheet" href="/EMPRESA/estilosemp/datosEmp.css">
+    <title>Registrar</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    
+
+
     <section class="registrar vh-100 gradient-custom">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
@@ -23,33 +25,34 @@
                   <div class="mb-md-5 mt-md-4 pb-5">
                     <div class="contentImg">
                       <a href="/index.html">
-                          <img class="logos" src="imagenes/logosSimbolos/logo2.png" alt="Logo">
+                          <img class="logos" src="/imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
                     <form>
-                      <div class="contentP">
-                          <h2>¡Cuéntanos!</h2>
-                          <br>
-                                  <a class="links" href="/USUARIO/registerU2.html">¿Buscas empleo?</a>
-                                  <br><br>
-                                  <div>
-                                      <img class="separadorLinea" src="imagenes/usadas/separadorlinea.png" alt="Linea separador">
-                                  </div>
-                                  <a class="links" href="#">¿Buscas personal?</a>
-                                  <br>
-                          <div>
-                              <br>
-                              <h5>¿Ya tienes cuenta?</h5>
-                              <br>
-                              <button data-mdb-ripple-init type="button" class="btn_iniciar btn btn-primary me-3">
-                                  <a class="btnSesion nav_lg_sg" href="/iniciarsesion.html">Iniciar sesion</a>
-                              </button>
-                              <br><br>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="text" id="form3Example1" class="form-control" />
+                            <label class="form-label" for="form3Example1">Nombre de la empresa</label>
+                        </div>
+                        <!-- Number input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="number" id="form3Example3" class="form-control" />
+                            <label class="form-label" for="form3Example3">Numero de contacto</label>
                           </div>
-                      </div>
-        
-                    </div>
-                  </form>
+                        
+                      
+                        <!-- Password input -->
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="text" id="form3Example4" class="form-control" />
+                          <label class="form-label" for="form3Example4">Direccion de la empresa</label>
+                        </div>
+                        <!-- Submit button -->
+                        <a href="/EMPRESA/perfilEmpresa.html"><button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Siguiente</button></a>
+                        
+                      
+                      
+                      </form>
+                   
                   </div>
                 </div>
               </div>
@@ -57,18 +60,13 @@
           </div>
         </div>
       </section>
-
-
-    <footer>
-        
+      <footer>
         Se tomo inspiracion de la pagina computrabajo.com
         <br>
         <div class="pie">
         copyright@sena
         </div>
         No le pagamos a la empresa de fallout por su imagen
-    
-   
-</footer>
+    </footer>
 </body>
 </html>
