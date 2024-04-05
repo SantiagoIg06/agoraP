@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+}
+.logos {
+    padding: 0px 0px 0px 20px;
+    height: 100px;
+    width: 160px;
+}
+
+.navcompleta {
+    height: 5%;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+}
+li {
+    margin: 10px;
+}
+.nav{
+    width: 100%;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav_lg_sg {
+    color: white;
+}
+button.btn.btn-primary.me-3 {
+    width: 40%;
+}
+.nav_lg_sg2 {
+    color: black;
+}
+.btnBuscar {
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.header img {
+  height: 40px;
+}
+#personal-info-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #personal-info-form label {
+    margin-top: 10px;
+  }
+  
+  #personal-info-form input[type="text"],
+  #personal-info-form input[type="email"],
+  #personal-info-form input[type="tel"] {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #personal-info-form textarea {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #personal-info-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+  color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #personal-info-form button:hover {
+    background-color: #3e8e41;
+  }
+  footer {
+    margin: 30px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    height: 5%;
+    color: rgb(68, 68, 68);
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

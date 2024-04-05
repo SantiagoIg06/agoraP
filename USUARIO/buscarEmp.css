@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+}
+.nameUsu {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+}
+.logos {
+    padding: 0px 0px 0px 20px;
+    height: 100px;
+    width: 160px;
+}
+
+.navcompleta {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+}
+li {
+    margin: 10px;
+}
+.nav{
+    width: 100%;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav_lg_sg {
+    color: white;
+}
+button.btn.btn-primary.me-3 {
+    width: 40%;
+}
+.nav_lg_sg2 {
+    color: black;
+}
+.btnBuscar {
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.imgEmp {
+    margin: 2px 20px;
+    width: 85%;
+}
+#trabaj {
+    margin: 8rem 0;
+  }
+  
+  #trabaj h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filters button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  
+  .work-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sleccion {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .sleccion .label {
+    margin-right: 1rem;
+  }
+  
+  .sleccion .selectUbic {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .sleccion .arrow {
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .sleccion:focus .arrow,
+  .sleccion:active .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .work-list li {
+    width: 30%;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+  
+  .work-info {
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+  .work-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chat-button {
+    text-decoration: none !important;
+    background-color: #1ee0ee;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+  }
+  
+  .chat-button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .header img {
+    height: 40px;
+  }
+  footer {
+    margin: 30px 0px 0px 0px ;
+    color: rgb(68, 68, 68);
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    justify-content: center;
+}
+.pie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
