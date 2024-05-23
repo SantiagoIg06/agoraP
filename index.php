@@ -32,10 +32,10 @@
                             </ul>          
                         <div class="d-flex align-items-center">
                             <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2">
-                                <a class="nav_lg_sg2" href="./iniciarsesion.php">Login</a>
+                                <a class="nav_lg_sg2 log" href="./iniciarsesion.php">Login</a>
                             </button>
                             <button data-mdb-ripple-init type="button" class="btn btn-primary me-3">
-                                <a class="nav_lg_sg" href="./registerU.php">Sign up</a>
+                                <a class="nav_lg_sg log" href="./registerU.php">Sign up</a>
                             </button>
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -49,10 +49,10 @@
 <section class="aterrizaje" >
     <br><br>
         <h2>Encuentra a personas dispuestas a trabajar contigo</h2>
-    <br><br>
+    <br>
         <p class="parrafosAterrizaje">Postula tus proyetos para ser escojido con un amplio catalogo de trabajos para escoger.
             Pagos con total seguridad</p>
-            <button class="btnContratar"><a href="#">Contrata aqui</a></button>
+            <a class="log btnContratar" href="#">Contrata aqui</a>
     <br><br>
 
 </section>
@@ -210,7 +210,7 @@
             </div>
         </div>
 <div class="btnMasEmpleos">
-    <a class="btnmas" href="/USUARIO/buscarEmp.html">Mas empleos aqui</a>
+    <a class="btnMas" href="/USUARIO/buscarEmp.php">Mas empleos aqui</a>
 </div>
 <br>
 
