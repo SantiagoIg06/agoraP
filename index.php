@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<htm lang="es">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>AGORA</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -16,9 +16,9 @@
         <div>
             <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand me-2" href="http://localhost/agoraP-main/index.php">
+              <a class="navbar-brand me-2" href="/index.php">
                 <img
-                class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo"
+                class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo"
                 height="16"
                 alt="/index.html"
                 loading="lazy"
@@ -32,10 +32,10 @@
                             </ul>          
                         <div class="d-flex align-items-center">
                             <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2">
-                                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/iniciarsesion.php">Login</a>
+                                <a class="nav_lg_sg2" href="./iniciarsesion.php">Login</a>
                             </button>
                             <button data-mdb-ripple-init type="button" class="btn btn-primary me-3">
-                                <a class="nav_lg_sg" href="http://localhost/agoraP-main/registerU.php">Sign up</a>
+                                <a class="nav_lg_sg" href="./registerU.php">Sign up</a>
                             </button>
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -46,7 +46,7 @@
         </div>
         
     </header>
-<section class="aterrizaje">
+<section class="aterrizaje" >
     <br><br>
         <h2>Encuentra a personas dispuestas a trabajar contigo</h2>
     <br><br>
@@ -63,9 +63,9 @@
     <div class="contentInfBasic">
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/conocimiento.png" alt="Conocimiento">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/conocimiento.png" alt="Conocimiento">
                 <h4>Postula tu conocimiento</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/conocimiento.png" alt="Conocimiento">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/conocimiento.png" alt="Conocimiento">
             </div>
             <div class="InfBasicParrafo">
                 <p>Con agora puedes publicar tus habilidades de manera rapida y gratuita. Solo con llenar los datos que te requerimos puedes postularte a mas de 1000 trabajos</p>
@@ -73,9 +73,9 @@
         </div>
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/precio.png" alt="Precio">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/precio.png" alt="Precio">
                 <h4>El dialogo es el precio</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/precio.png" alt="Precio">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/precio.png" alt="Precio">
             </div>
             <div class="InfBasicParrafo">
                 <p>Como trabajador independiente tendras la opcion de dialogar con la empresa atravez del chat en el cual escojeran el precio</p>
@@ -83,9 +83,9 @@
         </div>
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/seguridad.png" alt="Seguridad">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/seguridad.png" alt="Seguridad">
                 <h4>Tu seguridad es primero</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/seguridad.png" alt="Seguridad">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/seguridad.png" alt="Seguridad">
             </div>
             <div class="InfBasicParrafo">
                 <p>En agora nos importa tu seguridad por eso manejamos un ftro el cual nos permite analizar si las empresas registradas son seguras para los usuarios</p>
@@ -93,16 +93,16 @@
         </div>
     </div>   
 </section>
-    <img class="separadorLinea" src="http://localhost/agoraP-main/imagenes/usadas/separadorlinea.png" alt="Linea separador">
+    <img class="separadorLinea" src="./imagenes/usadas/separadorlinea.png" alt="Linea separador">
 <section>
     <br><br>q
         <h2>¿Necesitas a un trabajador?</h2>
     <div class="contentInfBasic">
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/trabajos.png" alt="Trabajos">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/trabajos.png" alt="Trabajos">
                 <h4>Trabajos para todo</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/trabajos.png" alt="Trabajos">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/trabajos.png" alt="Trabajos">
             </div>
             <div class="InfBasicParrafo">
                 <p>En agora tenemos la idea de cumplir con las necesidades de las entidades que entren a nuestra pagina es por eso que manejamos una amplia categoria de trabajos para poder escojer</p>
@@ -110,9 +110,9 @@
         </div>
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/actualizacion.png" alt="Actualizacion">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/actualizacion.png" alt="Actualizacion">
                 <h4>Actualizacion continua</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/actualizacion.png" alt="Actualizacion">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/actualizacion.png" alt="Actualizacion">
             </div>
             <div class="InfBasicParrafo">
                 <p>Tambien nos preocupádos del rendimineto de tu empresa es por eso que les pedimos a los usuarios que actualicen de manera continua sus perfes laborales.</p>
@@ -120,9 +120,9 @@
         </div>
         <div>
             <div class="infBasic">
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/solo.png" alt="Solo">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/solo.png" alt="Solo">
                 <h4>No estas solo</h4>
-                <img class="imgSmall" src="http://localhost/agoraP-main/imagenes/logosSimbolos/solo.png" alt="Solo">
+                <img class="imgSmall" src="./imagenes/logosSimbolos/solo.png" alt="Solo">
             </div>
             <div class="InfBasicParrafo">
                 <p>Nuestro equipo detras de la pagina web esta pendiente las 24 horas para cualquier inquietud o problema que se presente en nuestra pagina.</p>
@@ -135,7 +135,7 @@
         <h2>Empleos solicitados</h2>
     <div class="empresasParte1">
         <div class="infEmp">
-            <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+            <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
                 <p>CONTACTO XXXXXXXXXXX </p>
@@ -144,7 +144,7 @@
             
         </div>
         <div class="infEmp">
-            <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+            <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
                 <p>CONTACTO XXXXXXXXXXX </p>
@@ -153,7 +153,7 @@
             
         </div>
         <div class="infEmp">
-            <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+            <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
                 <p>CONTACTO XXXXXXXXXXX </p>
@@ -162,7 +162,7 @@
             
         </div>
         <div class="infEmp">
-            <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+            <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
                 <p>CONTACTO XXXXXXXXXXX </p>
@@ -174,7 +174,7 @@
         <br><br>
         <div class="empresasParte2">
             <div class="infEmp">
-                <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+                <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
                     <p>CONTACTO XXXXXXXXXXX </p>
@@ -183,7 +183,7 @@
                 
             </div>
             <div class="infEmp">
-                <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+                <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
                     <p>CONTACTO XXXXXXXXXXX </p>
@@ -192,7 +192,7 @@
                 
             </div>
             <div class="infEmp">
-                <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+                <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
                     <p>CONTACTO XXXXXXXXXXX </p>
@@ -201,7 +201,7 @@
                 
             </div>
             <div class="infEmp">
-                <img class="imgEmp" src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Empresas">
+                <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
                     <p>CONTACTO XXXXXXXXXXX </p>
@@ -230,4 +230,4 @@
     </footer>
     
 </body>
-</htm
+</html>

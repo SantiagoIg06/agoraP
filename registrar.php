@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/styleRegistrar.css">
+    <link rel="stylesheet" href="/styleRegistrar.css">
     <title>Agora registrar</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -22,7 +22,7 @@
       
                   <div class="mb-md-5 mt-md-4 pb-5">
                     <div class="contentImg">
-                      <a href="http://localhost/agoraP-main/index.php">
+                      <a href="/index.php">
                           <img class="logos" src="imagenes/logosSimbolos/logo2.png" alt="Logo">
                       </a>
                     </div> 
@@ -31,11 +31,11 @@
                       include("modelo/conexion.php");
                       include("controlador/controlador_registro.php");
                       ?>
-                    <input type="hidden" name="nombre" value="<?php echo $_POST['nombre']; ?>">
-                    <input type="hidden" name="apellido" value="<?php echo $_POST['apellido']; ?>">
-                    <input type="hidden" name="correo" value="<?php echo $_POST['correo']; ?>">
-                    <input type="hidden" name="contraseña" value="<?php echo $_POST['contraseña']; ?>">
-                    <input type="hidden" name="fecha_nacimiento" value="<?php echo $_POST['fecha_nacimiento']; ?>">
+                    <input type="hidden" name="nombre" value="<?php echo $_POST["nombre"]; ?>">
+                    <input type="hidden" name="apellido" value="<?php echo $_POST["apellido"]; ?>">
+                    <input type="hidden" name="correo" value="<?php echo $_POST["correo"]; ?>">
+                    <input type="hidden" name="contraseña" value="<?php echo $_POST["contraseña"]; ?>">
+                    <input type="hidden" name="fecha_nacimiento" value="<?php echo $_POST["fecha_nacimiento"]; ?>">
 
         
         

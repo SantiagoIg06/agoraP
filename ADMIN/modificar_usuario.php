@@ -4,13 +4,12 @@ $id=$_GET["id"];
 $sql=$conexion->query(" SELECT * From usuario Where id=$id ");
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/styleRusu.css">
+    <link rel="stylesheet" href="/styleRusu.css">
     <title>Modificar Usuarior</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -35,7 +34,9 @@ $sql=$conexion->query(" SELECT * From usuario Where id=$id ");
                           <img class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
+
                     <form method="POST" >
+                      
                     <input type="hidden" name="id" value="<?= $_GET["id"] ?>">
                       <?php
                       include("../controlador/controlador_modificarUsuario.php");
@@ -67,9 +68,20 @@ $sql=$conexion->query(" SELECT * From usuario Where id=$id ");
                           <input type="password" name="contraseña" value="<?= $datos->contraseña ?>"  class="form-control" />
                           <label class="form-label" for="form3Example4">Password</label>
                         </div>
+                        <!-- date input -->
+
                         <div data-mdb-input-init class="form-outline mb-4">
                           <input type="date" name="fecha_nacimiento" value="<?= $datos->fecha_nacimiento ?>"  class="form-control" />
                           <label class="form-label" for="form3Example4">Fecha de nacimiento</label>
+                        </div>
+                        <!-- id input -->
+                        <div data-mdb-input-init class="form-outline mb-4 roles">
+                        <label class="form-label" for="form3Example4 textRol">Rol</label>
+                        <select name="idRol" value="<?= $datos->idRol ?>" class="form-control">
+                          <option value="1" <?= ($datos->idRol == 1) ? 'selected' : ''?>>Usuario</option>
+                          <option value="2" <?= ($datos->idRol == 2) ? 'selected' : ''?>>Empresa</option>
+                          <option value="3" <?= ($datos->idRol == 3) ? 'selected' : ''?>>Administrador</option>
+                          </select>
                         </div>
                         
                         <!-- Submit button -->

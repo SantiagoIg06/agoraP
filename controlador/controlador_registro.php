@@ -1,5 +1,5 @@
 <?php
-$conexion=new mysqli ("localhost","root","","Agora3");
+$conexion=new mysqli ("localhost","root","","agoraP");
 if (!empty($_POST["nombre"]) && !empty($_POST["apellido"]) && !empty($_POST["correo"]) && !empty($_POST["contraseña"]) && !empty($_POST["fecha_nacimiento"]) && !empty($_POST["rol"])) {
    
     

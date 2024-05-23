@@ -5,6 +5,13 @@
 .registrar {
     background-color: rgba(0, 174, 255, 0.712);
 }
+.roles {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.textRol {
+    text-align: start !important;
+}
 div.contP {
     padding: 5px 48px 48px 48px !important;
     background-color: rgb(15, 27, 41);

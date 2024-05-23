@@ -1,3 +1,3 @@
 <?php
-$conexion=new mysqli ("localhost","root","","Agora3");
+$conexion=new mysqli ("localhost","root","","agoraP");
 ?>

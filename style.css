@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    list-style: none;
 }
 .logos {
     padding: 0px 0px 0px 20px;
@@ -48,7 +49,7 @@ button.btn.btn-primary.me-3 {
     background-size: 100%;
     width: 100%;
     height: 40%;
-    background-image: url(/imagenes/usadas/Fondo2.jpg);
+    background-image: url('../agoraP/imagenes/usadas/Fondo2.jpg') center / cover no-repeat fixed;
 }
 h2 {
     font-family: math;
