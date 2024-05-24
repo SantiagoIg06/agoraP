@@ -24,7 +24,7 @@ if (!empty($_POST["login"])) {
                     break;
                 case 3:
                     // Redireccionar si el rol es Admin
-                    header("Location:admin/pPrincipal.php");
+                    header("Location:ADMIN/pPrincipal.php");
                     break;
                 default:
                     // Redireccionar a una página por defecto si el rol no está definido
