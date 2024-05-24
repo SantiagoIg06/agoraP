@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/styleRusu.css">
+    <link rel="stylesheet" href="../agoraP/styleRusu.css">
     <title>Registrar</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -15,20 +15,20 @@
 <body>
 
 
-    <section class="registrar vh-100 gradient-custom">
+    <section class="registrar gradient-custom">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
               <div class="card bg-dark text-black" style="border-radius: 1rem;">
                 <div class="contP card-body p-5 text-center">
       
-                  <div class="mb-md-5 mt-md-4 pb-5">
+                  <div class="content-edit">
                     <div class="contentImg">
-                      <a href="/index.html">
-                          <img class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo">
+                      <a href="./index.php">
+                          <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
-                    <form action="http://localhost/agoraP-main/registrar.php" method="POST" >
+                    <form action="./registrar.php" method="POST" autocomplete="off" onsubmit="return validate ()" >
                       <?php
                       include("modelo/conexion.php");
                       include("controlador/controlador_registro.php");
@@ -37,32 +37,27 @@
                         <div class="row mb-4">
                           <div class="col">
                             <div data-mdb-input-init class="form-outline">
-                              <input type="text" name="nombre" id="form3Example1" class="form-control" />
-                              <label class="form-label" for="form3Example1">First name</label>
+                              <input type="text" name="nombre" id="form3Example1" class="form-input" placeholder="Nombre" required/>
                             </div>
                           </div>
                           <div class="col">
                             <div data-mdb-input-init class="form-outline">
-                              <input type="text" name="apellido" id="form3Example2" class="form-control" />
-                              <label class="form-label" for="form3Example2">Last name</label>
+                              <input type="text" name="apellido" id="form3Example2" class="form-input" placeholder="Apellido" required/>
                             </div>
                           </div>
                         </div>
                       
                         <!-- Email input -->
                         <div data-mdb-input-init class="form-outline mb-4">
-                          <input type="email" name="correo" id="form3Example3" class="form-control" />
-                          <label class="form-label" for="form3Example3">Email address</label>
+                          <input type="email" name="correo" id="form3Example3" class="form-input" placeholder="Correo Electronico" required/>
                         </div>
                       
                         <!-- Password input -->
                         <div data-mdb-input-init class="form-outline mb-4">
-                          <input type="password" name="contraseña" id="form3Example4" class="form-control" />
-                          <label class="form-label" for="form3Example4">Password</label>
+                          <input type="password" name="contraseña" id="form3Example4" class="form-input" placeholder="Contraseña" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-4">
-                          <input type="date" name="fecha_nacimiento" id="form3Example4" class="form-control" />
-                          <label class="form-label" for="form3Example4">Fecha de nacimiento</label>
+                        <input type="text" name="fecha_nacimiento" id="form3Example5" class="form-input" placeholder="Fecha de nacimiento" onfocus="showPlaceholder(this)" click="checkInput(this)" required/>
                         </div>
                         
                         <!-- Submit button -->
@@ -87,7 +82,7 @@
                             <i class="fab fa-github"></i>
                           </button>
                           <div>
-                            <p class="log mb-2">have a account? <a href="/iniciarsesion.html" class="text-white-50 fw-bold">Login</a>
+                            <p class="log mb-2">have a account? <a href="/iniciarsesion.php" class="text-white-50 fw-bold">Login</a>
                             </p>
                           </div>
                         </div>
@@ -102,12 +97,14 @@
       </section>
       <footer>
         Se tomo inspiracion de la pagina computrabajo.com
-        <br>
         <div class="pie">
         copyright@sena
         </div>
         No le pagamos a la empresa de fallout por su imagen
     </footer>
+    
+
+    <script src="./registerU.js"></script>
 </body>
 </html>
 
