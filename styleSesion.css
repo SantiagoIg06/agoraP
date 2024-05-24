@@ -39,13 +39,19 @@ div.cont_logs {
     border-radius: 15px;
 }
 .btn_log {
-    background-color: black;
-    color: blue !important;
-    border: 2px solid blue !important;
-    border-radius: 2px;
+    background-color: #00f4;
+    color: #000;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 25%;
+    font-size: 20px;
 }
-.btn-outline-light {
-    --bs-btn-hover-bg: black !important;
+.btn_log:hover {
+    font-size: 22px;
+    background-color: #0005;
+    color: #fff !important;
+    font-weight: 400;
+    border:1px solid #fff;
 }
 .space_ema, .space_pas {
     border: 2px solid black !important;
