@@ -40,7 +40,7 @@
                     <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Publicaciones</button>
                 </div>
                 </a>
-                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/crearcategoria.php">
+                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/crearUsuario.php">
                     <div class="d-flex align-items-center">
                         <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Crear usuario</button>
                     </div>

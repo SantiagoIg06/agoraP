@@ -18,6 +18,10 @@
     display: flex !important;
     flex-direction: column !important;
 }
+.rol {
+    background-color: #fff;
+    width: 100%;
+}
 .textRol {
     text-align: start !important;
 }

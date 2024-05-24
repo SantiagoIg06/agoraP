@@ -8,6 +8,16 @@ header {
     height: 91px;
     background-color: aliceblue;
 }
+.form-general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.col-4 {
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+}
 
 .hola img {
     width: 100%;
@@ -33,9 +43,16 @@ header {
     text-decoration: none;
     color: white !important;
     width: 100%;
+    font-size: 18px;
     height: 142px;
     background-color: #487cb8;
     padding: 10px;
+}
+.d-flex:hover .btn:hover {
+    background-color: #04f;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .d-flex .nav_lg_sg2 {

@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
-    <link rel="stylesheet" href="http://localhost/agoraP-main/ADMIN/admin.css">
+    <link rel="stylesheet" href="./admin.css">
 </head>
 <body>
     <header>
         <div class="img1">
-            <img src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="">
+            <img src="../imagenes/logosSimbolos/logo1.png" alt="Logo agora">
         </div>
     </header>
     <section>
         <div id="lat_izq" >
             <div class="img2">
-                <a href="http://localhost/agoraP-main/ADMIN/admin.php">
+                <a href="./admin.php">
                     <div class="divImg">
-                        <img src="http://localhost/agoraP-main/imagenes/logosSimbolos/perfil.png" alt="">
+                        <img src="../imagenes/logosSimbolos/perfil.png" alt="">
                     </div>
                 </a>
                 
-                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/pPrincipal.php">
+                <a class="nav_lg_sg2" href="./pPrincipal.php">
                     <div class="d-flex align-items-center">
                         <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Pagina principal</button>
                     </div>
                     </a>
-                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/publicaciones.php">
+                <a class="nav_lg_sg2" href="./publicaciones.php">
                 <div class="d-flex align-items-center">
                     <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Publicaciones</button>
                 </div>
                 </a>
-                <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/crearcategoria.php">
+                <a class="nav_lg_sg2" href="./crearcategoria.php">
                     <div class="d-flex align-items-center">
                         <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Crear usuario</button>
                     </div>
                     </a>
-                    <a class="nav_lg_sg2" href="http://localhost/agoraP-main/ADMIN/adregistro.php">
+                    <a class="nav_lg_sg2" href="./adregistro.php">
                         <div class="d-flex align-items-center">
                             <button data-mdb-ripple-init type="button" class="button btn btn-link px-3 me-3">Registros</button>
                         </div>
@@ -82,7 +82,7 @@
             </div>
             
             <div class="persona">
-                <img src="http://localhost/agoraP-main/imagenes/usadas/VaultBoy.webp" alt="">
+                <img src="../imagenes/usadas/VaultBoy.webp" alt="">
             </div>
 
         </div>
