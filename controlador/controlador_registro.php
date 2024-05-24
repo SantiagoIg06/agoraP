@@ -15,9 +15,9 @@ if (!empty($_POST["nombre"]) && !empty($_POST["apellido"]) && !empty($_POST["cor
     
     if ($resultado) {
         if ($rol == 1) {
-            header("location: http://localhost/agoraP-main/USUARIO/usuarioInf.php"); // Redirige para registro de usuario
+            header("location: ../USUARIO/usuarioInf.php"); // Redirige para registro de usuario
         } elseif ($rol == 2) {
-            header("location:  http://localhost/agoraP-main/EMPRESA/perfilEmpresa.php"); // Redirige para registro de empresa
+            header("location:  ../EMPRESA/perfilEmpresa.php"); // Redirige para registro de empresa
         }
     } else {
         echo 'Error al registrar el usuario: ' . mysqli_error($conexion);

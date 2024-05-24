@@ -65,24 +65,20 @@
                       
                         <!-- Register buttons -->
                         <div class="text-center">
-                          <p>or sign up with:</p>
-                          <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-facebook-f"></i>
-                          </button>
+                          <p>o inicia sesion con:</p>
                       
                           <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
                             <i class="fab fa-google"></i>
                           </button>
                       
                           <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-twitter"></i>
-                          </button>
-                      
-                          <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
                             <i class="fab fa-github"></i>
                           </button>
+                          <button data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+                            <i class="fab fa-facebook-f"></i>
+                          </button>
                           <div>
-                            <p class="log mb-2">have a account? <a href="/iniciarsesion.php" class="text-white-50 fw-bold">Login</a>
+                            <p class="log mb-2">¿Ya tienes una cuenta? <a href="./iniciarsesion.php" class="text-white-50 fw-bold">Inicia sesion</a>
                             </p>
                           </div>
                         </div>

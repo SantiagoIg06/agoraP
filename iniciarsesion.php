@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/styleSesion.css">
+    <link rel="stylesheet" href="./styleSesion.css">
     <title>Iniciar sesion</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -13,33 +13,31 @@
 </head>
 <body>
     
-    <section class="iniciarSesion vh-100 gradient-custom">
+    <section class="iniciarSesion gradient-custom">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
               <div class="card bg-dark text-black" style="border-radius: 1rem;">
                 <div class="cont_logs card-body p-5 text-center">
       
-                  <div class="mb-md-5 mt-md-4 pb-5">
+                  <div class="content-edit">
                     <div class="contentImg">
-                      <a href="http://localhost/agoraP-main/index.php">
-                          <img class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo">
+                      <a href="./index.php">
+                          <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                   </div>
                     <p class="text-black-50 mb-5">Por favor digita tu correo y contraseña!</p>
-                    <form action="" method="POST">
+                    <form action="" method="POST" autocomplete="off">
                       <?php
                       include("modelo/conexion.php");
                       include("controlador/controlador_inicioSesion.php");
                       ?>
                     <div class="form-outline form-black mb-4">
-                      <input type="email" id="typeEmailX" name="correo" class="space_ema form-control form-control-lg" />
-                      <label class="form-label" for="typeEmailX">Email</label>
+                      <input type="email" class="logs" id="typeEmailX" name="correo" placeholder="Correo"/>
                     </div>
       
                     <div class="form-outline form-black mb-4">
-                      <input type="password" id="typePasswordX" name="contraseña" class="space_pas form-control form-control-lg" />
-                      <label class="form-label" for="typePasswordX">Password</label>
+                      <input type="password" class="logs" id="typePasswordX" name="contraseña" placeholder="Contraseña"/>
                     </div>
       
                     <p class="small mb-5 pb-lg-2"><a class="text-black-50" href="#!">¿Olvidaste tu contraseña?</a></p>
@@ -47,9 +45,9 @@
                     <button name="login" class="btn_log btn btn-outline-light btn-lg px-5" type="submit" value="INICIAR SESION">Login</button>
       
                     <div class="d-flex justify-content-center text-center mt-4 pt-1">
-                      <a href="#!" class="text-black"><i class="fab fa-facebook-f fa-lg"></i></a>
-                      <a href="#!" class="text-black"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
                       <a href="#!" class="text-black"><i class="fab fa-google fa-lg"></i></a>
+                      <a href="#!" class="text-black"><i class="fab fa-github fa-lg mx-4 px-2"></i></a>
+                      <a href="#!" class="text-black"><i class="fab fa-facebook-f fa-lg"></i></a>
                     </div>
       
                     </form>
@@ -57,7 +55,7 @@
                   </div>
       
                   <div>
-                    <p class="mb-0">Don't have an account? <a href="http://localhost/agoraP-main/registrar.php" class="text-black-50 fw-bold">Sign Up</a>
+                    <p class="mb-0">Don't have an account? <a href="./registerU.php" class="text-black-50 fw-bold">Sign Up</a>
                     </p>
                   </div>
       

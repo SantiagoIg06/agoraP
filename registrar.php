@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    li
     <title>Agora registrar</title>
+    <link rel="stylesheet" href="./styleRegistrar.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
@@ -13,17 +13,17 @@
 </head>
 <body>
     
-    <section class="registrar vh-100 gradient-custom">
+    <section class="registrar gradient-custom">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
               <div class="card bg-dark text-black" style="border-radius: 1rem;">
                 <div class="contP card-body p-5 text-center">
       
-                  <div class="mb-md-5 mt-md-4 pb-5">
+                  <div class="content-edit">
                     <div class="contentImg">
-                      <a href="/index.php">
-                          <img class="logos" src="/imagenes/logosSimbolos/logo2.png" alt="Logo">
+                      <a href="./index.php">
+                          <img class="logos" src="./imagenes/logosSimbolos/logo2.png" alt="Logo">
                       </a>
                     </div> 
                     <form action="controlador/controlador_registro.php" method="POST">
@@ -45,7 +45,7 @@
                           <button type="submit" name="rol" value="1" class="btn btn-outline-light">¿Buscas empleo?</button>
                                   <br><br>
                                   <div>
-                                      <img class="separadorLinea" src="/imagenes/usadas/separadorlinea.png" alt="Linea separador">
+                                      <img class="separadorLinea" src="./imagenes/usadas/separadorlinea.png" alt="Linea separador">
                                   </div>
                                   <button type="submit" name="rol" value="2" class="btn btn-outline-light">¿Buscas personal?</button>
                                   <br>
@@ -54,7 +54,7 @@
                               <h5>¿Ya tienes cuenta?</h5>
                               <br>
                               <button data-mdb-ripple-init type="button" class="btn_iniciar btn btn-primary me-3">
-                                  <a class="btnSesion nav_lg_sg" href="/iniciarsesion.php">Iniciar sesion</a>
+                                  <a class="btnSesion nav_lg_sg" href="./iniciarsesion.php">Iniciar sesion</a>
                               </button>
                               <br><br>
                           </div>

@@ -5,6 +5,22 @@
 .card {
     background: hsla(0, 0%, 100%, 0.8);
 }
+.logs {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input::placeholder {
+    color: #000;
+    font-size: 12px;
+    opacity: 1;
+}
+.content-edit {
+    padding: 5px 0px;
+}
 .contentP {
     background-color: white;
     margin: 0% 30%;
