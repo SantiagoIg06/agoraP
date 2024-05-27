@@ -16,13 +16,8 @@
         <div>
             <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand me-2" href="/index.php">
-                <img
-                class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo"
-                height="16"
-                alt="/index.html"
-                loading="lazy"
-                style="margin-top: -1px;">
+              <a class="navbar-brand me-2" href="./index.php">
+                <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo" height="16" alt="/index.php" loading="lazy" style="margin-top: -1px;">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarButtonsExample">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -138,8 +133,8 @@
             <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
-                <p>CONTACTO XXXXXXXXXXX </p>
-                <p>UBICACION XXXXXXXXXX</p>
+                <p>CONTACTO: XXXXXXXXXXX </p>
+                <p>UBICACION: XXXXXXXXXX</p>
             </div>
             
         </div>
@@ -147,8 +142,8 @@
             <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
-                <p>CONTACTO XXXXXXXXXXX </p>
-                <p>UBICACION XXXXXXXXXX</p>
+                <p>CONTACTO: XXXXXXXXXXX </p>
+                <p>UBICACION: XXXXXXXXXX</p>
             </div>
             
         </div>
@@ -156,8 +151,8 @@
             <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
-                <p>CONTACTO XXXXXXXXXXX </p>
-                <p>UBICACION XXXXXXXXXX</p>
+                <p>CONTACTO: XXXXXXXXXXX </p>
+                <p>UBICACION: XXXXXXXXXX</p>
             </div>
             
         </div>
@@ -165,8 +160,8 @@
             <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div class="contUbic">
-                <p>CONTACTO XXXXXXXXXXX </p>
-                <p>UBICACION XXXXXXXXXX</p>
+                <p>CONTACTO: XXXXXXXXXXX </p>
+                <p>UBICACION: XXXXXXXXXX</p>
             </div>
             
         </div>
@@ -177,8 +172,8 @@
                 <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
-                    <p>CONTACTO XXXXXXXXXXX </p>
-                    <p>UBICACION XXXXXXXXXX</p>
+                    <p>CONTACTO: XXXXXXXXXXX </p>
+                    <p>UBICACION: XXXXXXXXXX</p>
                 </div>
                 
             </div>
@@ -186,8 +181,8 @@
                 <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
-                    <p>CONTACTO XXXXXXXXXXX </p>
-                    <p>UBICACION XXXXXXXXXX</p>
+                    <p>CONTACTO: XXXXXXXXXXX </p>
+                    <p>UBICACION: XXXXXXXXXX</p>
                 </div>
                 
             </div>
@@ -195,8 +190,8 @@
                 <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
-                    <p>CONTACTO XXXXXXXXXXX </p>
-                    <p>UBICACION XXXXXXXXXX</p>
+                    <p>CONTACTO: XXXXXXXXXXX </p>
+                    <p>UBICACION: XXXXXXXXXX</p>
                 </div>
                 
             </div>
@@ -204,30 +199,25 @@
                 <img class="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas">
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div class="contUbic">
-                    <p>CONTACTO XXXXXXXXXXX </p>
-                    <p>UBICACION XXXXXXXXXX</p>
+                    <p>CONTACTO: XXXXXXXXXXX </p>
+                    <p>UBICACION: XXXXXXXXXX</p>
                 </div>
             </div>
         </div>
 <div class="btnMasEmpleos">
-    <a class="btnMas" href="/USUARIO/buscarEmp.php">Mas empleos aqui</a>
+    <a class="btnMas" href="./buscarEmp.php">Mas empleos aqui</a>
 </div>
 <br>
 
         
 </section>
-
-    <footer>
-        
-            Se tomo inspiracion de la pagina computrabajo.com
-            <br>
-            <div class="pie">
+    <footer>        
+        Se tomo inspiracion de la pagina computrabajo.com
+        <br>
+        <div class="pie">
             copyright@sena
-            </div>
-            No le pagamos a la empresa de fallout por su imagen
-        
-       
+        </div>
+        No le pagamos a la empresa de fallout por su imagen
     </footer>
-    
 </body>
 </html>
