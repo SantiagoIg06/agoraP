@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/USUARIO/infEmp.css">
+    <link rel="stylesheet" href="./infEmp.css">
     <title>Informacion</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -19,10 +19,10 @@
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img
-                        class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
-                        alt="http://localhost/agoraP-main/perfilEmpresa.php"
+                        alt="./perfilEmpresa.php"
                         loading="lazy"
                         style="margin-top: -1px;">
                         
@@ -33,10 +33,10 @@
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <img
-                        class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
-                        alt="/EMPRESA/perfilEmpresa.html"
+                        alt="../EMPRESA/perfilEmpresa.php"
                         loading="lazy"
                         style="margin-top: -1px;">
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -47,10 +47,10 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost/agoraP-main/USUARIO/usuarioInf.php">Mi perfil</a>
+                          <a class="nav-link" href="./usuarioInf.php">Mi perfil</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost/agoraP-main/USUARIO/buscarEmp.php">Busqueda de Ttrabajos</a>
+                          <a class="nav-link" href="./buscarEmp.php">Busqueda de Ttrabajos</a>
                         </li>
                         </li>
                       </ul>
@@ -65,11 +65,13 @@
         </div>
         
     </header>
+    
     <div class="header">
-        <a href="http://localhost/agoraP-main/USUARIO/usuarioInf.php" style="text-decoration: none; font-size: 20px;"><img src="http://localhost/agoraP-main/imagenes/logosSimbolos/perfil.png" alt="Logo"> #</a>
+        <a href="./usuarioInf.php" style="text-decoration: none; font-size: 20px;">
+        <img src="../imagenes/logosSimbolos/perfil.png" alt="Logo" style="padding-right: 10px;">XXXXXXXXXXXXXX </a>
     </div>
     <div class="company-card">
-        <img src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="Company 1">
+        <img class="imgEmp" src="../imagenes/usadas/Trabajos.jpg" alt="Company 1">
         <div class="company-info">
             <h2><b>Empresa</b></h2>
             <p><b>Ubicacion: </b>Incidunt quo facere atque deleniti cum porro impedit dolor vitae! Fuga id est libero quam ipsa incidunt. Modi in, doloribus obcaecati, nihil perferendis fugit est reprehenderit officiis assumenda, ducimus dicta!</p><br>
@@ -79,7 +81,7 @@
             Ducimus laudantium molestias minima sunt ad nisi deserunt. A cum natus, laudantium molestias excepturi nobis sunt eaque expedita assumenda consequatur error quidem asperiores impedit velit architecto ab harum accusamus quo.
             Laborum architecto voluptate quae esse, rem cumque mollitia placeat dolorem facere magni corrupti quisquam deleniti reiciendis? Odio esse rerum veniam ratione! Velit ullam quam eaque pariatur, doloremque dicta iure nihil!
             Amet cupiditate accusantium quod similique voluptatem id quaerat aspernatur, ratione molestiae, ipsum suscipit aut molestias maiores vero. Excepturi impedit atque, architecto, explicabo labore distinctio tenetur quibusdam reprehenderit laboriosam nobis alias? </p>
-            <a href="/USUARIO/contact.html" class="chat-button">Contactanos</a>
+            <a href="./contact.php" class="chat-button">Contactanos</a>
         </div>
         
     </div>

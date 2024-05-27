@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/USUARIO/styleRusu.css">
+    <link rel="stylesheet" href="./styleRusu.css">
     <title>Registrar</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -24,8 +24,8 @@
       
                   <div class="mb-md-5 mt-md-4 pb-5">
                     <div class="contentImg">
-                      <a href="http://localhost/agoraP-main/index.php">
-                          <img class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo">
+                      <a href="./index.php">
+                          <img class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
                     <form>

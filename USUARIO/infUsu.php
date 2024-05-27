@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/USUARIO/infUsu.css">
+    <link rel="stylesheet" href="./infUsu.css">
     <title>Informacion</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
@@ -17,11 +17,11 @@
         <div>
             <nav class="navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand me-2" href="http://localhost/agoraP-main/index.html">
+              <a class="navbar-brand me-2" href="./index.html">
                 <img
-                class="logos" src="http://localhost/agoraP-main/imagenes/logosSimbolos/logo1.png" alt="Logo"
+                class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                 height="16"
-                alt="http://localhost/agoraP-main/index.php"
+                alt="./index.php"
                 loading="lazy"
                 style="margin-top: -1px;">
                     </a>
@@ -39,8 +39,8 @@
                 </div>
             </nav>
         </div>
-        
     </header>
+    
     <h1>Personal Information</h1>
 	<form id="personal-info-form">
 		<label for="first-name">First Name:</label>

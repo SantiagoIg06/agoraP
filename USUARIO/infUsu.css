@@ -6,6 +6,22 @@
     height: 100px;
     width: 160px;
 }
+.header {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+}
+
+.header img {
+  height: 40px;
+}
+
+.header h1 {
+  margin: 0;
+}
 
 .navcompleta {
     height: 5%;
