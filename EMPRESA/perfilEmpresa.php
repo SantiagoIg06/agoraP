@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Empresa</title>
-    <link rel="stylesheet" href="http://localhost/agoraP-main/EMPRESA/estilosemp/styleEmpPer.css">
+    <link rel="stylesheet" href="./estilosemp/styleEmpPer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-                class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                class="logos" src="./imagenes/logo1.png" alt="Logo"
                 height="83"
                 width="100"
                 alt="/perfilEmpresa.html"
@@ -34,10 +34,10 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
                 <img
-                class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                class="logos" src="./imagenes/logo1.png" alt="Logo"
                 height="83"
                 width="100"
-                alt="/EMPRESA/perfilEmpresa.html"
+                alt="./perfilEmpresa.html"
                 loading="lazy"
                 style="margin-top: -1px;">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -48,10 +48,10 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://localhost/agoraP-main/EMPRESA/perfilEmpresa.php">Mi perfil</a>
+                  <a class="nav-link" href="./perfilEmpresa.php">Mi perfil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://localhost/agoraP-main/EMPRESA/solicitudesPostulantes.php">Busqueda de postulantes</a>
+                  <a class="nav-link" href="./solicitudesPostulantes.php">Busqueda de postulantes</a>
                 </li>
                 </li>
               </ul>
@@ -67,13 +67,13 @@
 
     <section class="flex-container">
       <div class="caja">
-        <img class="imagenPerfilEmp" src="http://localhost/agoraP-main/EMPRESA/imagenes/istockphoto-1300845620-612x612.jpg" alt="foto usuario">
+        <img class="imagenPerfilEmp" src="./imagenes/istockphoto-1300845620-612x612.jpg" alt="foto usuario">
         <h1>Nombre Empresa</h1>
         <h2>direccion Empresa</h2>
         <h2>correo electronico de la Empresa</h2>
         <h2>numero de contacto</h2>
         <h2>trabajos que ofrece la Empresa</h2>
-        <a href="http://localhost/agoraP-main/EMPRESA/actualizarPerfilEmp.php">
+        <a href="./actualizarPerfilEmp.php">
           <button type="button"class="btn btn-primary btn-lg" >Actualizar Perfil</button>
         </a>
       </div>
