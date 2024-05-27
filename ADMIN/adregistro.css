@@ -22,15 +22,29 @@ header {
     height: 112px;
     padding-left: 40px;
 }
-
 #lat_izq {
     width: 17%;
     height: 100%px;
     background-color: white;
-    float: left
+    float: left;
+}
+.img2 img {
+    width: 50%;
+    height: 50%;
+}
+.divImg {
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px 30px 0px
+}
+.d-flex .nav_lg_sg2 {
+    text-decoration: none;
+    
 }
 
 .d-flex .btn {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     text-decoration: none;
     color: white !important;
     width: 100%;
@@ -46,15 +60,18 @@ header {
     font-weight: 700;
 }
 
-.d-flex .nav_lg_sg2 {
+.button {
     text-decoration: none;
+    color: white !important;
 }
 
 #lat_der {
     width: 83%;
     height: 100%;
     background-color: white;
-    float: right
+    float: right;
+    border-left: #000 solid 2px;
+
 }
 
 #lat_der h1 {
@@ -89,25 +106,8 @@ header {
     background-color: #fae7a7;
  }
 
-.img2 img {
-    width: 50%;
-    height: 50%;
-}
-
-.divImg {
-    border-right: 2px solid black;
-    justify-content: center;
-    display: flex;
-    padding: 10px 0px 30px 0px
-}
-
-.button {
-    text-decoration: none;
-    color: white !important;
-}
 
 footer {
-    margin: 10px 0px 0px 0px;
     float: inline-start;
     width: 100%;
     color: rgb(68, 68, 68);

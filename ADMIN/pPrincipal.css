@@ -4,6 +4,12 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.textos button {
+    margin: 0px 10px 0px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #fae7a7;
+ }
 .imgAdministrar{
     display: flex;
     justify-content: flex-end;
