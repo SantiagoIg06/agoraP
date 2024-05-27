@@ -25,12 +25,12 @@ INSERT INTO rol (rol) VALUES
 
 -- Llenar tabla 'usuario'
 INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento,idrol) VALUES
-('Juan', 'Pérez', 'juan@example.com', 'password1', '1990-05-15','1'),
+('SUPER', 'ADMIN', 'superadmin@gmail.com', 'superadmin', '2002-20-02','3'),
 ('María', 'García', 'maria@example.com', 'password2', '1988-10-25','2'),
 ('Pedro', 'López', 'pedro@example.com', 'password3', '1995-03-08','2'),
 ('Andres', 'Hernandez', 'andres@example.com', 'password4', '1996-03-08','1'),
 ('Carlos', 'Jimenez', 'carlos@example.com', 'password5', '1986-05-04','1'),
-('Ashly', 'Cortez', 'ashly@example.com', 'password6', '1986-05-04','3');
+('Ashly', 'Cortez', 'ashly@example.com', 'password6', '1986-05-04','1');
 
 -- Llenar tabla 'pais'
 INSERT INTO pais (nombre_pais) VALUES
