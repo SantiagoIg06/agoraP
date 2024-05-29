@@ -28,8 +28,8 @@ INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento,idr
 ('Andres', 'Hernandez', 'andres@example.com', 'password4', '1996-03-08','1'),
 ('Carlos', 'Jimenez', 'carlos@example.com', 'password5', '1986-05-04','1'),
 ('Ashly', 'Cortez', 'ashly@example.com', 'password6', '1986-05-04','1'),
-('Juan', 'Jose', 'joseju@example.com', 'password7', '2012-20-02','2'),
-('Jhon', 'Javier', 'jj@example.com', 'password8', '2010-20-10','2'),
+('Juan', 'Jose', 'joseju@example.com', 'password7', '2012-04-02','2'),
+('Jhon', 'Javier', 'jj@example.com', 'password8', '2010-02-10','2'),
 ('ADMIN', 'ADMIN', 'fulladmin@fulladmin.com', 'fulladmin', '2002-20-02','3');
 
 -- Llenar tabla 'pais'

@@ -81,7 +81,7 @@
                           <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="form3Example3">Cuentanos sobre tu problema</label>
                             <input type="email" id="form3Example3" class="form-control" />
-                            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Enviar respuesta</button>
+                            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4 btn-modal">Enviar respuesta</button>
                           </div>
                     </div>
                 </div>

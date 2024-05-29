@@ -8,6 +8,12 @@ header {
     height: 91px;
     background-color: aliceblue;
 }
+.form-outline .form-control {
+    background: #fff9 !important;
+}
+.form-outline:hover .form-control:hover {
+    background: #fff !important;
+}
 .textos button {
     margin: 0px 10px 0px 10px;
     font-size: 15px;
@@ -50,7 +56,10 @@ header {
     height: 100vh;
 }
 
+.btn-modal {
+    margin-top: 10px;
 
+}
 .d-flex .btn {
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
