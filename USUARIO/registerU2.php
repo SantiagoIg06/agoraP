@@ -22,7 +22,7 @@
       
                   <div class="contS mb-md-5 mt-md-4 pb-5">
                     <div class="contentImg">
-                      <a href="./index.php">
+                      <a href="./index.html">
                           <img class="logos" src="../imagenes/logosSimbolos/logo2.png" alt="Logo">
                       </a>
                 </div>

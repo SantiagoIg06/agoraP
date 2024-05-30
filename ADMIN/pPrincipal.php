@@ -17,7 +17,7 @@
         <div>
             <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div class="container">
-            <a class="navbar-brand me-2" href="./index.php">
+            <a class="navbar-brand me-2" href="./index.html">
                 <img class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo" alt="/index.html" loading="lazy">
             </a>
                     <div class="collapse navbar-collapse" id="navbarButtonsExample">

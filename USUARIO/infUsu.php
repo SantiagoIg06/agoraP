@@ -21,7 +21,7 @@
                 <img
                 class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                 height="16"
-                alt="./index.php"
+                alt="./index.html"
                 loading="lazy"
                 style="margin-top: -1px;">
                     </a>

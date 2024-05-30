@@ -24,7 +24,7 @@
       
                   <div class="content-edit">
                     <div class="contentImg">
-                      <a href="./index.php">
+                      <a href="./index.html">
                           <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
