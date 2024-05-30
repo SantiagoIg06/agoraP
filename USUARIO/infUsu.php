@@ -17,11 +17,11 @@
         <div>
             <nav class="navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand me-2" href="./index.html">
+              <a class="navbar-brand me-2" href="./index.php">
                 <img
                 class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                 height="16"
-                alt="./index.html"
+                alt="./index.php"
                 loading="lazy"
                 style="margin-top: -1px;">
                     </a>

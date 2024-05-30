@@ -24,7 +24,7 @@
       
                   <div class="mb-md-5 mt-md-4 pb-5">
                     <div class="contentImg">
-                      <a href="./index.html">
+                      <a href="./index.php">
                           <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
