@@ -17,7 +17,7 @@
     <br>
         <p class="parrafosAterrizaje">Postula tus proyetos para ser escojido con un amplio catalogo de trabajos para escoger.
             Pagos con total seguridad</p>
-            <a class="log btnContratar" href="#">Contrata aqui</a>
+            <a class="log btnContratar">Contrata aqui</a>
     <br><br>
 
 </section>

@@ -64,6 +64,7 @@ h2 {
     font-size: 35px;
 }
 .btnContratar {
+    cursor: pointer;
     padding: 2px 10px;
     border-radius: 10px;
     border: 2px solid #fff;

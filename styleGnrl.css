@@ -24,6 +24,7 @@
     color: #09aedb !important;
 }
 .imgMode {
+    cursor: pointer;
     width: 40px;
 }
 .nav_lg_sg {

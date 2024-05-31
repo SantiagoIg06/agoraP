@@ -1,9 +1,16 @@
 const headerP = document.querySelector("header");
+const reload = document.querySelector(".btnContratar");
+
+
+reload.addEventListener("click", ()=>{
+    console.log(history.go(0));
+});
+
 headerP.innerHTML = `
 <div>
     <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
         <div class="container">
-            <a href="#">
+            <a>
                 <img class="imgMode" src="./imagenes/usadas/modeDarkOrWhite.png" alt="Modo de visualizacion">
             </a>
             <a class="navbar-brand me-2" href="./index.php">
@@ -47,6 +54,7 @@ const clSing = document.querySelector(".btn2");
 let i = 0;
 /* Boton buscar */
 const btnBuscar = document.querySelector(".btnBuscar")
+
 
 mode.addEventListener("click", ()=>{
     if (i == 0) {
