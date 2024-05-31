@@ -16,19 +16,19 @@ if (!empty($_POST["login"])) {
             switch ($idRol) {
                 case 1:
                     // Redireccionar si el rol es Usuario
-                    header("Location:USUARIO/usuarioInf.php");
+                    header("Location:../USUARIO/usuarioInf.php");
                     break;
                 case 2:
                     // Redireccionar si el rol es Empresa
-                    header("Location:EMPRESA/perfilEmpresa.php");
+                    header("Location:../EMPRESA/perfilEmpresa.php");
                     break;
                 case 3:
                     // Redireccionar si el rol es Admin
-                    header("Location:ADMIN/pPrincipal.php");
+                    header("Location:../ADMIN/pPrincipal.php");
                     break;
                 default:
                     // Redireccionar a una página por defecto si el rol no está definido
-                    header("Location: pagina_por_defecto.php");
+                    header("Location: ../pagina_por_defecto.php");
                     break;
             }
         } else {

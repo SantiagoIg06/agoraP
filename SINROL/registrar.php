@@ -17,14 +17,14 @@
       
                   <div class="content-edit">
                     <div class="contentImg">
-                      <a href="./index.php">
-                          <img class="logos" src="./imagenes/logosSimbolos/logo2.png" alt="Logo">
+                      <a href="../index.php">
+                          <img class="logos" src="../imagenes/logosSimbolos/logo2.png" alt="Logo">
                       </a>
                     </div> 
-                    <form action="controlador/controlador_registro.php" method="POST">
+                    <form action="../controlador/controlador_registro.php" method="POST">
                     <?php
-                      include("modelo/conexion.php");
-                      include("controlador/controlador_registro.php");
+                      include("../modelo/conexion.php");
+                      include("../controlador/controlador_registro.php");
                       ?>
                     <input type="hidden" name="nombre" value="<?php echo $_POST["nombre"]; ?>">
                     <input type="hidden" name="apellido" value="<?php echo $_POST["apellido"]; ?>">
@@ -40,7 +40,7 @@
                           <button type="submit" name="rol" value="1" class="btn btn-outline-light">¿Buscas empleo?</button>
                                   <br><br>
                                   <div>
-                                      <img class="separadorLinea" src="./imagenes/usadas/separadorlinea.png" alt="Linea separador">
+                                      <img class="separadorLinea" src=".. /imagenes/usadas/separadorlinea.png" alt="Linea separador">
                                   </div>
                                   <button type="submit" name="rol" value="2" class="btn btn-outline-light">¿Buscas personal?</button>
                                   <br>
@@ -69,7 +69,7 @@
 <footer id="foot">        
         
 </footer>
-<script src="./scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
 
 </body>
 </html>

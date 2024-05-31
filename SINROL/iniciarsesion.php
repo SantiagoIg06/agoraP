@@ -18,15 +18,15 @@
       
                   <div class="content-edit">
                     <div class="contentImg">
-                      <a href="./index.php">
-                          <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
+                      <a href="../index.php">
+                          <img class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                   </div>
                     <p class="text-black-50 mb-5">Por favor digita tu correo y contraseña!</p>
                     <form action="" method="POST" autocomplete="off">
                       <?php
-                      include("modelo/conexion.php");
-                      include("controlador/controlador_inicioSesion.php");
+                      include("../modelo/conexion.php");
+                      include("../controlador/controlador_inicioSesion.php");
                       ?>
                     <div class="form-outline form-black mb-4">
                       <input type="email" class="logs" id="typeEmailX" name="correo" placeholder="Correo"/>
@@ -66,7 +66,7 @@
 <footer id="foot">        
         
 </footer>
-<script src="./scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
 
 </body>
 </html>

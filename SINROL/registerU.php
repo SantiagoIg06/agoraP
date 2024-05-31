@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="../agoraP/styleRusu.css">
+    <link rel="stylesheet" href="./styleRusu.css">
     <title>Registrar</title>
 
 
@@ -18,14 +18,14 @@
       
                   <div class="content-edit">
                     <div class="contentImg">
-                      <a href="./index.php">
-                          <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo">
+                      <a href="../index.php">
+                          <img class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo">
                       </a>
                     </div> 
                     <form action="./registrar.php" method="POST" autocomplete="off" onsubmit="return validate ()" >
                       <?php
-                      include("modelo/conexion.php");
-                      include("controlador/controlador_registro.php");
+                      include("../modelo/conexion.php");
+                      include("../controlador/controlador_registro.php");
                       ?>
                         <!-- 2 column grid layout with text inputs for the first and last names -->
                         <div class="row mb-4">
@@ -88,7 +88,7 @@
 <footer id="foot">        
         
 </footer>
-<script src="./scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
 <script src="./registerU.js"></script>
 
 </body>

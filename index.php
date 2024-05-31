@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="./style.css">
     <title>AGORA</title>
-    <link rel="stylesheet" href="./styleGnrl.css">
+    <link rel="stylesheet" href="./GENERAL/styleGnrl.css">
 
 </head>
 <body>
@@ -184,7 +184,7 @@
     <footer id="foot">        
         
     </footer>
-    <script src="./scriptGeneral.js"></script>
+    <script src="./GENERAL/scriptGeneral.js"></script>
     <script src="./principal.js"></script>
 </body>
 </html>

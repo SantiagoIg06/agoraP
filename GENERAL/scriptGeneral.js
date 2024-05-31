@@ -1,7 +1,7 @@
 const header = document.querySelector("head");
 const footer = document.getElementById("foot");
 header.innerHTML += `
-<link rel="stylesheet" href="./styleGnrl.css">
+<link rel="stylesheet" href="../GENERAL/styleGnrl.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://kit.fontawesome.com/5f71ff408d.js" crossorigin="anonymous"></script>

@@ -13,7 +13,7 @@ headerP.innerHTML = `
             <a>
                 <img class="imgMode" src="./imagenes/usadas/modeDarkOrWhite.png" alt="Modo de visualizacion">
             </a>
-            <a class="navbar-brand me-2" href="./index.php">
+            <a class="navbar-brand me-2" href="./SINROL/index.php">
                 <img class="logos" src="./imagenes/logosSimbolos/logo2.png" alt="Logo" height="16" alt="/index.php" loading="lazy" style="margin-top: -1px;">
             </a>
             <div class="collapse navbar-collapse" id="navbarButtonsExample">
@@ -24,10 +24,10 @@ headerP.innerHTML = `
                 </ul>          
             <div class="d-flex align-items-center">
                 <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2">
-                    <a class="nav_lg_sg2 log" href="./iniciarsesion.php">Login</a>
+                    <a class="nav_lg_sg2 log" href="./SINROL/iniciarsesion.php">Login</a>
                 </button>
                 <button data-mdb-ripple-init type="button" class="btn btn2 btn-primary me-3">
-                    <a class="nav_lg_sg log2" href="./registerU.php">Sign up</a>
+                    <a class="nav_lg_sg log2" href="./SINROL/registerU.php">Sign up</a>
                 </button>
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btnBuscar btn btn-outline-success" type="submit">Search</button>

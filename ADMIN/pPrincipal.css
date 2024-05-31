@@ -10,19 +10,13 @@
     border-radius: 10px;
     background-color: #fae7a7;
  }
-.imgAdministrar{
+ .imgAdministrar{
     display: flex;
     justify-content: flex-end;
     width: 15%;
     margin: 10px 0px 10px 0px;
 }
-.imgAdmin {
-    width: 60%;
-    margin: 10px;
-}
-.imgAdmin:hover {
-    filter: saturate(1%);
-}
+
 .me-2 {
     width: 60%;
 }

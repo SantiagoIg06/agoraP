@@ -8,6 +8,10 @@ header {
     height: 91px;
     background-color: aliceblue;
 }
+a {
+    text-decoration: none !important;
+
+}
 .form-outline .form-control {
     background: #fff9 !important;
 }
@@ -60,22 +64,25 @@ header {
     margin-top: 10px;
 
 }
-.d-flex .btn {
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
-    text-decoration: none;
+.btnLateral{
+    border-bottom: 1px solid #000 !important;
+    border-top: 1px solid #000 !important;
+    text-decoration: none !important;
     color: white !important;
-    width: 100%;
-    font-size: 18px;
+    width: 100% !important;
+    font-size: 18px !important;
     height: 20vh !important;
-    background-color: #487cb8;
-    padding: 10px;
+    background-color: #487cb8 !important;
+    padding: 10px !important;
+
 }
-.d-flex:hover .btn:hover {
-    background-color: #04f;
+.btnLateral:hover {
+    background-color: #04f !important;
     color: #000 !important;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+
 }
 
 .button {

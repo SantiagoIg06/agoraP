@@ -14,9 +14,7 @@
 
     </script>
     <header>
-        <div class="img1">
-            <img src="../imagenes/logosSimbolos/logo1.png" alt="">
-        </div>
+        
     </header>
     <section>
         <div id="lat_izq" >
@@ -101,7 +99,8 @@
 <footer id="foot">        
         
 </footer>
-<script src="../scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
+<script src="./generalAdmin.js"></script>
         
 </body>
 </html>

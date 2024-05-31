@@ -6,9 +6,7 @@
 </head>
 <body>
     <header>
-        <div class="img1">
-            <img src="../imagenes/logosSimbolos/logo1.png" alt="Logo agora">
-        </div>
+        
     </header>
     <section>
     <div id="lat_izq" >
@@ -20,22 +18,22 @@
                 </a>
                 <a class="nav_lg_sg2" href="./pPrincipal.php">
                     <div class="d-flex align-items-center">
-                        <button data-mdb-ripple-init type="button" class="button btn btn-link  ">Pagina principal</button>
+                        <button data-mdb-ripple-init type="button" class="btnLateral button btn btn-link  ">Pagina principal</button>
                     </div>
                     </a>
                 <a class="nav_lg_sg2" href="./publicaciones.php">
                 <div class="d-flex align-items-center">
-                    <button data-mdb-ripple-init type="button" class="button btn btn-link  ">Publicaciones</button>
+                    <button data-mdb-ripple-init type="button" class="btnLateral button btn btn-link  ">Publicaciones</button>
                 </div>
                 </a>
                 <a class="nav_lg_sg2" href="./crearUsuario.php">
                     <div class="d-flex align-items-center">
-                        <button data-mdb-ripple-init type="button" class="button btn btn-link  ">Crear usuario</button>
+                        <button data-mdb-ripple-init type="button" class="btnLateral button btn btn-link  ">Crear usuario</button>
                     </div>
                     </a>
                     <a class="nav_lg_sg2" href="./adregistro.php">
                         <div class="d-flex align-items-center">
-                            <button data-mdb-ripple-init type="button" class="button btn btn-link  ">Registros</button>
+                            <button data-mdb-ripple-init type="button" class="btnLateral button btn btn-link  ">Registros</button>
                         </div>
                         </a>
             </div>
@@ -90,7 +88,8 @@
 <footer id="foot">        
         
 </footer>
-<script src="../scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
+<script src="./generalAdmin.js"></script>
         
 </body>
 </html>

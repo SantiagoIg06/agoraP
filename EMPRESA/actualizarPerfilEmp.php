@@ -87,6 +87,6 @@
 <footer id="foot">        
         
 </footer>
-<script src="../scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
 </body>
 </html>

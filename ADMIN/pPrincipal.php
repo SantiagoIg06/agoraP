@@ -8,27 +8,7 @@
 </head>
 <body>
     <header>
-        <div>
-            <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
-            <div class="container">
-            <a class="navbar-brand me-2" href="./index.php">
-                <img class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo" alt="/index.php" loading="lazy">
-            </a>
-                    <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
-                            </li>
-                            </ul>          
-                        <div class="d-flex align-items-center">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                            <a class="imgAdministrar" href="./admin.php"><img class="imgAdmin" src="../imagenes/usadas/administrar.jpg" alt="Administrar"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        
         
     </header>
 <section class="aterrizaje">
@@ -205,7 +185,8 @@
 <footer id="foot">        
         
 </footer>
-<script src="../scriptGeneral.js"></script>
+<script src="../GENERAL/scriptGeneral.js"></script>
+<script src="./generalAdmin.js"></script>
     
 </body>
 </html>
