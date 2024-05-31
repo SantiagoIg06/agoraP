@@ -2,6 +2,7 @@
     margin: 0px;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .logos {
     padding: 0px 0px 0px 20px;
