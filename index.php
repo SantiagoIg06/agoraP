@@ -3,35 +3,12 @@
 <head>
     <link rel="stylesheet" href="./style.css">
     <title>AGORA</title>
+    <link rel="stylesheet" href="./styleGnrl.css">
+
 </head>
 <body>
     <header>
-        <div>
-            <nav class="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
-            <div class="container">
-              <a class="navbar-brand me-2" href="./index.php">
-                <img class="logos" src="./imagenes/logosSimbolos/logo1.png" alt="Logo" height="16" alt="/index.php" loading="lazy" style="margin-top: -1px;">
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
-                            </li>
-                            </ul>          
-                        <div class="d-flex align-items-center">
-                            <button data-mdb-ripple-init type="button" class="btn btn-link px-3 me-2">
-                                <a class="nav_lg_sg2 log" href="./iniciarsesion.php">Login</a>
-                            </button>
-                            <button data-mdb-ripple-init type="button" class="btn btn-primary me-3">
-                                <a class="nav_lg_sg log" href="./registerU.php">Sign up</a>
-                            </button>
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        
         
     </header>
 <section class="aterrizaje" >
@@ -208,5 +185,6 @@
         
     </footer>
     <script src="./scriptGeneral.js"></script>
+    <script src="./principal.js"></script>
 </body>
 </html>

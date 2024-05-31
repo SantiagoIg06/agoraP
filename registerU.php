@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../agoraP/styleRusu.css">
     <title>Registrar</title>
 
+
 </head>
 <body>
 
@@ -89,6 +90,7 @@
 </footer>
 <script src="./scriptGeneral.js"></script>
 <script src="./registerU.js"></script>
+
 </body>
 </html>
 

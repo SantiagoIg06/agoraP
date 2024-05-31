@@ -1,0 +1,46 @@
+.btn-primary {
+    background-color: #000 !important;
+    border: #000 solid 1px !important;
+}
+.btn-primary:hover {
+    background-color: #444 !important;
+}
+.btn-primary2 {
+    width: 40%;
+    background-color: #0d6efd !important;
+    color: #fff;
+}
+.btn-primary2:hover {
+    background-color: #09aedb !important;
+    color: #fff;
+}
+.dark-background {
+    background-color: #333 !important;
+}
+.white-color {
+    color: #fff ;
+}
+.white-color:hover {
+    color: #09aedb !important;
+}
+.imgMode {
+    width: 40px;
+}
+.nav_lg_sg {
+    color: white !important;
+}
+.nav_lg_sg2 {
+    color: black !important;
+}
+.log,.log2 {
+    text-decoration: none !important;
+    list-style: none;
+}
+.btn-outline-success {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+}
+.btn-outline-success2 {
+    color: #fff !important;
+    border: #fff 1px solid !important;
+}

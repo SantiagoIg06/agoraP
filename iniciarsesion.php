@@ -5,6 +5,7 @@
     <title>Iniciar sesion</title>
     <link rel="stylesheet" href="./styleSesion.css">
 
+
 </head>
 <body>
     
@@ -66,5 +67,6 @@
         
 </footer>
 <script src="./scriptGeneral.js"></script>
+
 </body>
 </html>

@@ -4,6 +4,7 @@
 
     <title>Agora registrar</title>
     <link rel="stylesheet" href="./styleRegistrar.css">
+
 </head>
 <body>
     
@@ -69,5 +70,6 @@
         
 </footer>
 <script src="./scriptGeneral.js"></script>
+
 </body>
 </html>

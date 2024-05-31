@@ -29,14 +29,8 @@ li {
     align-items: center;
     justify-content: flex-end;
 }
-.nav_lg_sg {
-    color: white;
-}
 button.btn.btn-primary.me-3 {
     width: 40%;
-}
-.nav_lg_sg2 {
-    color: black;
 }
 .btnBuscar {
     width: 150px;
@@ -166,8 +160,4 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-.log {
-    text-decoration: none !important;
-    list-style: none;
 }
