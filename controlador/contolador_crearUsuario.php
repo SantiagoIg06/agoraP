@@ -10,6 +10,9 @@ if (!empty($_POST["btnregistrar"])) {
         $rol = $_POST["idRol"];
         
         $sql=$conexion->query("INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento, idRol) VALUES ('$nombre', '$apellido', '$correo', '$contraseña', '$fecha_nacimiento', '$rol')");
+        
+        
+        
         if ($sql==1) {
             echo '<div class="alert alert-success">Persona registrada correctamente</div>';
         } else {

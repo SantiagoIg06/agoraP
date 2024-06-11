@@ -1,0 +1,31 @@
+http://localhost/agoraP/
+
+
+http://localhost/agoraP/api/create-user.php
+
+{
+"nombre": "maria",
+"apellido": "magdalena",
+"correo": "maria@gmail.com",
+"contraseña": "123",
+"fecha_nacimiento": "1996-03-08",
+"idRol":"1"
+}
+
+http://localhost/agoraP/api/update-user.php?id=YOUR_ID
+
+http://localhost/agoraP/api/delete-user.php?id=YOUR_ID
+
+http://localhost/agoraP/api/get-all-user.php
+
+http://localhost/agoraP/api/get-user.php?id=YOUR_ID
+
+http://localhost/agoraP/api/login-user.php
+
+{
+"correo": "...",
+"contraseña": "..."
+}
+
+
+
