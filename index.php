@@ -60,7 +60,7 @@
 </section>
     <img class="separadorLinea" src="./imagenes/usadas/separadorlinea.png" alt="Linea separador">
 <section>
-    <br><br>q
+    <br><br>
         <h2>¿Necesitas a un trabajador?</h2>
     <div class="contentInfBasic">
         <div>

@@ -3,7 +3,7 @@ use agoraP;
 
 
 create table IF NOT EXISTS rol (id int (11) primary key auto_increment, rol varchar (10) );
-create table IF NOT EXISTS usuario (id int primary key auto_increment, nombre varchar(45) not null, apellido varchar (45) not null, correo varchar (100) not null, contraseña varchar (10) not null, fecha_nacimiento date, idRol int (11),constraint fk_rol foreign key (idRol) references rol (id));
+create table IF NOT EXISTS usuario (id int primary key auto_increment, nombre varchar(45) not null, apellido varchar (45) not null, correo varchar (100) not null, contraseña varchar (10) not null, fecha_nacimiento date, idRol int (11), foto_perfil varchar(255), constraint fk_rol foreign key (idRol) references rol (id));
 
 create table IF NOT EXISTS pais (id int primary key auto_increment, nombre_pais char (3)not null);
 create table IF NOT EXISTS direccion (id int primary key auto_increment, codigo_postal int not null, idPais int,constraint fk_Pais foreign key (idPais) references Pais (id));
@@ -24,13 +24,15 @@ INSERT INTO rol (rol) VALUES
 ('Admin');
 
 -- Llenar tabla 'usuario'
-INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento,idrol) VALUES
-('Andres', 'Hernandez', 'andres@example.com', 'password4', '1996-03-08','1'),
-('Carlos', 'Jimenez', 'carlos@example.com', 'password5', '1986-05-04','1'),
-('Ashly', 'Cortez', 'ashly@example.com', 'password6', '1986-05-04','1'),
-('Juan', 'Jose', 'joseju@example.com', 'password7', '2012-04-02','2'),
-('Jhon', 'Javier', 'jj@example.com', 'password8', '2010-02-10','2'),
-('ADMIN', 'ADMIN', 'fulladmin@fulladmin.com', 'fulladmin', '2002-20-02','3');
+INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento, idRol, foto_perfil)
+VALUES
+('Andres', 'Hernandez', 'andres@example.com', 'password4', '1996-03-08', 1, 'https://randomuser.me/api/portraits/men/1.jpg'),
+('Carlos', 'Jimenez', 'carlos@example.com', 'password5', '1986-05-04', 1, 'https://randomuser.me/api/portraits/men/2.jpg'),
+('Ashly', 'Cortez', 'ashly@example.com', 'password6', '1986-05-04', 1, 'https://randomuser.me/api/portraits/women/1.jpg'),
+('Juan', 'Jose', 'joseju@example.com', 'password7', '2012-04-02', 2, 'https://randomuser.me/api/portraits/men/3.jpg'),
+('Jhon', 'Javier', 'jj@example.com', 'password8', '2010-02-10', 2, 'https://randomuser.me/api/portraits/men/4.jpg'),
+('ADMIN', 'ADMIN', 'fulladmin@fulladmin.com', 'fulladmin', '2002-20-02', 3, 'https://randomuser.me/api/portraits/men/5.jpg');
+
 
 -- Llenar tabla 'pais'
 INSERT INTO pais (nombre_pais) VALUES

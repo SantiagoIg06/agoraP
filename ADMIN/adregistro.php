@@ -61,6 +61,7 @@
       <th scope="col">Correo</th>
       <th scope="col">contraseña</th>
       <th scope="col">Fecha de nacimiento</th>
+      <th scope="col">Foto perfil</th>
       <th scope="col">Rol</th>
       <th scope="col"></th>
       
@@ -78,6 +79,7 @@
                 <td><?= $datos->correo ?></td>
                 <td><?= $datos->contraseña ?></td>
                 <td><?= $datos->fecha_nacimiento ?></td>
+                <td><?= $datos->foto_perfil ?></td>
                 <td><?= $datos->idRol ?></td>
                 <td>
                      <a href="modificar_usuario.php?id=<?= $datos->id ?>" class="btn btn small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
