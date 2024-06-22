@@ -1,5 +1,9 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
+}
+.imgEmp {
+    width: 40%;
 }
 .logos {
     padding: 0px 0px 0px 20px;
@@ -109,7 +113,6 @@ h2 {
    border: 1px solid black;
 }
 footer {
-    margin: 30px 0px 0px 0px ;
     height: 5%;
     color: rgb(68, 68, 68);
     background-color: rgb(15, 15, 15);

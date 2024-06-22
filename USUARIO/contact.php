@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/USUARIO/contact.css">
+    <link rel="stylesheet" href="./contact.css">
     <title>Empresas</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
@@ -18,10 +12,10 @@
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img
-                        class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
-                        alt="/perfilEmpresa.html"
+                        alt="/EMPRESA/perfilEmpresa.php"
                         loading="lazy"
                         style="margin-top: -1px;">
                         
@@ -32,10 +26,10 @@
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <img
-                        class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
-                        alt="/EMPRESA/perfilEmpresa.html"
+                        alt="/EMPRESA/perfilEmpresa.php"
                         loading="lazy"
                         style="margin-top: -1px;">
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -46,10 +40,10 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost/agoraP-main/USUARIO/usuarioInf.php">Mi perfil</a>
+                          <a class="nav-link" href="./usuarioInf.php">Mi perfil</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="http://localhost/agoraP-main/USUARIO/buscarEmp.php">Busqueda de Ttrabajos</a>
+                          <a class="nav-link" href="./buscarEmp.php">Busqueda de Ttrabajos</a>
                         </li>
                         </li>
                       </ul>
@@ -62,14 +56,18 @@
                 </div>
               </nav>
         </div>
-        
     </header>
-    <section >
+    
+    <section>
         <div class="cont_P">
+        <div class="header">
+        <a href="./usuarioInf.php" style="text-decoration: none; font-size: 20px;">
+        <img src="../imagenes/logosSimbolos/perfil.png" alt="Logo" style="padding-right: 10px;">XXXXXXXXXXXXXX </a>
+    </div>
             <div class="infEmp">
                 
                     <div class="cont_s1">
-                        <img src="http://localhost/agoraP-main/imagenes/usadas/Trabajos.jpg" alt="imgTrabajos" class="imgTrbj">
+                        <img src="../imagenes/usadas/Trabajos.jpg" alt="imgTrabajos" class="imgTrbj">
                     </div>
                         <div class="cont_s2">
                             <div class="tittles">
@@ -87,12 +85,12 @@
                                 Nisi asperiores repudiandae reprehenderit eum aperiam tempore qui inventore rerum velit repellendus, adipisci et assumenda excepturi atque sit ipsum quidem ratione eligendi eos nesciunt, enim odio aliquid voluptate quod! Aspernatur.</p>
                         </div> 
                         <div class="buttonS">
-                            <a href="http://localhost/agoraP-main/USUARIO/infEmp.html" class="button_contact2">Ver mas</a>
+                            <a href="./infEmp.php" class="button_contact2">Ver mas</a>
                         </div>
                         </div>
             </div>
             <div>
-                <img class="separadorLinea" src="http://localhost/agoraP-main/imagenes/usadas/separadorlinea.png"alt="lineaSeparador">
+                <img class="separadorLinea" src="../imagenes/usadas/separadorlinea.png"alt="lineaSeparador">
             </div>
                 
         </div>
@@ -104,13 +102,9 @@
     <br>
 
     
-      <footer>
-        Se tomo inspiracion de la pagina computrabajo.com
-        <br>
-        <div class="pie">
-        copyright@sena
-        </div>
-        No le pagamos a la empresa de fallout por su imagen
-    </footer>
+<footer id="foot">        
+        
+</footer>
+<script src="../scriptGeneral.js"></script>
 </body>
 </html>

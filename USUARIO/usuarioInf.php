@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/agoraP-main/USUARIO/usuarioInf.css">
+
+    <link rel="stylesheet" href="./usuarioInf.css">
     <title>Mi cuenta</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet"/>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -19,7 +13,7 @@
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img
-                        class="logos" src="/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
                         alt="/perfilEmpresa.html"
@@ -33,10 +27,10 @@
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <img
-                        class="logos" src="/EMPRESA/imagenes/logo1.png" alt="Logo"
+                        class="logos" src="../imagenes/logosSimbolos/logo1.png" alt="Logo"
                         height="83"
                         width="100"
-                        alt="/EMPRESA/perfilEmpresa.html"
+                        alt="./perfilEmpresa.html"
                         loading="lazy"
                         style="margin-top: -1px;">
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -47,10 +41,10 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="/USUARIO/usuarioInf.html">Mi perfil</a>
+                          <a class="nav-link" href="./usuarioInf.php">Mi perfil</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="/USUARIO/buscarEmp.html">Busqueda de Ttrabajos</a>
+                          <a class="nav-link" href="./buscarEmp.php">Busqueda de Trabajos</a>
                         </li>
                         </li>
                       </ul>
@@ -67,7 +61,7 @@
     
     <section class="infoUser">
         <div class="user-info">
-            <img src="/imagenes/logosSimbolos/perfil.png" alt="User photo" class="user-photo">
+            <img src="../imagenes/logosSimbolos/perfil.png" alt="User photo" class="user-photo">
             <div class="user-details">
                 <h2 class="user-name"><b>NOMBRE DE USUARIO:</b> XXXXX XXXXX XXXXX XXXXXX</h2>
                 <p class="user-dob"><b>FECHA DE NACIMIENTO:</b> XXXXXXXXXX</p>
@@ -87,7 +81,7 @@
                 Sunt illum voluptates esse quae porro molestiae sint sequi magnam, corporis soluta modi iure veritatis fugiat voluptatum non quisquam rem quas necessitatibus maxime architecto earum iste sapiente eum ut. Animi?   </p>
                 <p class="user-contact"><b>NUMERO DE CONTACTO:</b> XXXXXXXX</p>
                 <p class="user-email"><b>GMAIL:</b> XXXXXXXXXX</p>
-                <a href="/USUARIO/buscarEmp.html"><button class="viewEmp">Ver empresas</button></a>
+                <a href="./buscarEmp.php"><button class="viewEmp">Ver empresas</button></a>
             </div>
             <button class="update-button">Actualizar informacion</button>
         </div>
@@ -182,13 +176,9 @@
         });
     </script>
     
-      <footer>
-        Se tomo inspiracion de la pagina computrabajo.com
-        <br>
-        <div class="pie">
-        copyright@sena
-        </div>
-        No le pagamos a la empresa de fallout por su imagen
-    </footer>
+<footer id="foot">        
+        
+</footer>
+<script src="../scriptGeneral.js"></script>
 </body>
 </html>

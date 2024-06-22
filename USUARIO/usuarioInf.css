@@ -34,6 +34,22 @@ li {
 button.btn.btn-primary.me-3 {
     width: 40%;
 }
+.header {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+}
+
+.header img {
+  height: 40px;
+}
+
+.header h1 {
+  margin: 0;
+}
 .nav_lg_sg2 {
     color: black;
 }
@@ -46,12 +62,12 @@ button.btn.btn-primary.me-3 {
     height: 0%;
 }
 .user-info {
+    margin-top: 15vh;
     display: flex;
     align-items: center;
     background-color: #f1f1f1;
     padding: 1rem;
     border-radius: 0.25rem;
-    margin-bottom: 1rem;
   }
   
   .user-info .user-photo {
@@ -253,7 +269,6 @@ button:hover {
   cursor: pointer;
 }
 footer {
-  margin: 30px 0px 0px 0px ;
     height: 5%;
     color: rgb(68, 68, 68);
     background-color: rgb(15, 15, 15);

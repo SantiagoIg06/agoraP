@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Registros</title>
-    <link rel="stylesheet" href="./adregistros.css">
+    <title>Crear Categoria</title>
+    <link rel="stylesheet" href="./crearUsuarios.css">
     
-</head>
+    </head>
 <body>
-    <script>
-        function eliminar() {
-            var respuesta=confirm("Estas seguro que deseas ELIMINAR?")
-            return respuesta
-        }
-
-    </script>
     <header>
         
-        </header>
-        <section class="flex-container">
+    </header>
+    <section class="flex-container">
             <div class="grid-layout">
                 <div class="caja c1">
                     <div class="container-fluid">
@@ -73,49 +66,47 @@
                     </div>
                 </div>
                 <div class="caja c2">
-            <h1>Registros</h1>
+                <h1>Crea usuario</h1>
+            
+            <form class="form-general" method="POST" autocomplete="off">
             <?php
             include("../modelo/conexionREG.php");
-            include("../controlador/controlador_eliminarUsuario.php");
+            include("../controlador/contolador_crearUsuario.php");
             ?>
-            <table class="table">
-  <thead class="table-info">
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Apellido</th>
-      <th scope="col">Correo</th>
-      <th scope="col">contraseña</th>
-      <th scope="col">Fecha de nacimiento</th>
-      <th scope="col">Rol</th>
-      <th scope="col"></th>
-      
-    </tr>
-  </thead>
-  <tbody>
-        <?php
-        $sql=$conexion->query("SELECT * From usuario");
-        while ($datos=$sql->fetch_object()) { ?>
-            <tr>
+            <div class="table">
+                <div class="col-4 p-3">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" name="correo" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" name="contraseña" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" name="fecha_nacimiento" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Rol</label>
+                            <select class="form-select" name="idRol" aria-label="Default select example">
+                                <option value="1">Usuario</option>
+                                <option value="2">Empresa</option>
+                                <option value="3">Admin</option>
+                            </select>
+                    </div>
                 
-                <td><?= $datos->id ?></td>
-                <td><?= $datos->nombre ?></td>
-                <td><?= $datos->apellido ?></td>
-                <td><?= $datos->correo ?></td>
-                <td><?= $datos->contraseña ?></td>
-                <td><?= $datos->fecha_nacimiento ?></td>
-                <td><?= $datos->idRol ?></td>
-                <td>
-                     <a href="modificar_usuario.php?id=<?= $datos->id ?>" class="btn btn small btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
-                    <a onclick="return eliminar()" href="adregistro.php?id=<?= $datos->id ?>" class="btn btn small btn-danger"><i class="fa-solid fa-trash-can"></i></a>
-                </td>
-            </tr>
-        <?php }
-        ?>
-    
-   
-  </tbody>
-</table>
+                    <button type="submit" name="btnregistrar" value="registrar" class="btn btn-primary">Crear</button>
+                </div>
+            </div class="table">
         </div>
                 <div class="caja c3">
                 <footer id="foot">
@@ -127,6 +118,5 @@
                 
             </div>
         </section>
-        
 </body>
 </html>

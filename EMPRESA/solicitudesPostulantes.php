@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicitudes de Postulantes</title>
-    <link rel="stylesheet" href="http://localhost/agoraP-main/EMPRESA/estilosemp/styleEmpSolicitudes.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilosemp/styleEmpSolicitudes.css">
 </head>
 <body>
     <header class="menu">
@@ -18,10 +10,10 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-                class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                class="logos" src="./imagenes/logo1.png" alt="Logo"
                 height="83"
                 width="100"
-                alt="/perfilEmpresa.html"
+                alt="./perfilEmpresa.html"
                 loading="lazy"
                 style="margin-top: -1px;">
                 
@@ -32,10 +24,10 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
                 <img
-                class="logos" src="http://localhost/agoraP-main/EMPRESA/imagenes/logo1.png" alt="Logo"
+                class="logos" src="./imagenes/logo1.png" alt="Logo"
                 height="83"
                 width="100"
-                alt="/EMPRESA/perfilEmpresa.html"
+                alt="./perfilEmpresa.html"
                 loading="lazy"
                 style="margin-top: -1px;">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -46,10 +38,10 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://localhost/agoraP-main/EMPRESA/perfilEmpresa.php">Mi perfil</a>
+                  <a class="nav-link" href="./perfilEmpresa.php">Mi perfil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://localhost/agoraP-main/EMPRESA/solicitudesPostulantes.php">Busqueda de postulantes</a>
+                  <a class="nav-link" href="./solicitudesPostulantes.php">Busqueda de postulantes</a>
                 </li>
                 </li>
               </ul>
@@ -66,7 +58,7 @@
     <section class="flex-container">
         <div class="grid-layout">
             <div class="caja c1">
-                <img class="imagenPerfilEmp" src="http://localhost/agoraP-main/EMPRESA/imagenes/istockphoto-1300845620-612x612.jpg" alt="foto perfil">
+                <img class="imagenPerfilEmp" src="./imagenes/istockphoto-1300845620-612x612.jpg" alt="foto perfil">
             </div>
             <div class="caja c2">
                 <h1>Solicitudes de Postulantes</h1>
@@ -100,7 +92,7 @@
                 </div>
             </div>
             <div class="caja c3">
-                <img class="imagenPerfilUsu" src="http://localhost/agoraP-main/EMPRESA/imagenes/perfil.png" alt="foto perfil">
+                <img class="imagenPerfilUsu" src="./imagenes/perfil.png" alt="foto perfil">
             </div>
             <div class="caja c4">
                 <h2>X Persona</h2>
@@ -110,7 +102,7 @@
                     <button type="button" class="btn btn-primary btn-lg">Ver Perfil</button>
             </div>
             <div class="caja c3">
-                <img class="imagenPerfilUsu" src="http://localhost/agoraP-main/EMPRESA/imagenes/perfil.png" alt="foto perfil">
+                <img class="imagenPerfilUsu" src="./imagenes/perfil.png" alt="foto perfil">
             </div>
             <div class="caja c4">
                 <h2>X Persona</h2>
@@ -120,7 +112,7 @@
                     <button type="button" class="btn btn-primary btn-lg">Ver Perfil</button>
             </div>
             <div class="caja c3">
-                <img class="imagenPerfilUsu" src="http://localhost/agoraP-main/EMPRESA/imagenes/perfil.png" alt="foto perfil">
+                <img class="imagenPerfilUsu" src="./imagenes/perfil.png" alt="foto perfil">
             </div>
             <div class="caja c4">
                 <h2>X Persona</h2>
@@ -130,7 +122,7 @@
                     <button type="button" class="btn btn-primary btn-lg">Ver Perfil</button>
             </div>
             <div class="caja c3">
-                <img class="imagenPerfilUsu" src="http://localhost/agoraP-main/EMPRESA/imagenes/perfil.png" alt="foto perfil">
+                <img class="imagenPerfilUsu" src="./imagenes/perfil.png" alt="foto perfil">
             </div>
             <div class="caja c4">
                 <h2>X Persona</h2>
@@ -140,7 +132,7 @@
                     <button type="button" class="btn btn-primary btn-lg">Ver Perfil</button>
             </div>
             <div class="caja c3">
-                <img class="imagenPerfilUsu" src="http://localhost/agoraP-main/EMPRESA/imagenes/perfil.png" alt="foto perfil">
+                <img class="imagenPerfilUsu" src="./imagenes/perfil.png" alt="foto perfil">
             </div>
             <div class="caja c4">
                 <h2>X Persona</h2>
@@ -175,16 +167,10 @@
             </div>
       </section>
 
-      <footer>
+<footer id="foot">        
         
-        Se tomo inspiracion de la pagina computrabajo.com
-        <br>
-        <div class="pie">
-        copyright@sena
-        </div>
-        No le pagamos a la empresa de fallout por su imagen
-    
-   
 </footer>
+<script src="../GENERAL/scriptGeneral.js"></script>
+
 </body>
 </html>
