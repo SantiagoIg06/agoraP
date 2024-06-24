@@ -1,69 +1,53 @@
 <?php
 include("../modelo/connection.php");
 
-class Crud extends Connection
-{
+class Crud extends Connection {
 
-  public function __construct()
- {
-	  parent::__construct();
- }
- 
+    public function __construct() {
+        parent::__construct();
+    }
 
-  public function create($data)
-{
-  $insert = $this->con->query($data) or die();
+    public function create($data) {
+        $insert = $this->con->query($data);
 
-  if($insert)
-  {
-    return $insert;
-  }
-  else 
-  {
-    echo "Query failed...";
-  }
-}
- 
- public function read($data)
-{
-  $view = $this->con->query($data) or die();
+        if ($insert) {
+            return true;
+        } else {
+            echo "Error: " . $this->con->error;
+            return false;
+        }
+    }
 
-  if ($view->num_rows > 0)
-  {
-    return $view;
-  }
-  else
-  {
-	 return $view;
-  }
-}
+    public function read($data) {
+        $view = $this->con->query($data);
 
-  public function update($data)
-{
-  $update = $this->con->query($data) or die();
+        if ($view && $view->num_rows > 0) {
+            return $view;
+        } else {
+            return null; // No hay resultados
+        }
+    }
 
-  if($update)
-  {
-   return $update;
-  }
-  else 
-  {
-    echo "Query failed...";
-  }
-}
+    public function update($data) {
+        $update = $this->con->query($data);
 
- public function deletes($data)
-{
-  $delete = $this->con->query($data) or die();
+        if ($update) {
+            return true;
+        } else {
+            echo "Error: " . $this->con->error;
+            return false;
+        }
+    }
 
-  if($delete)
-  {
-    return $delete;
-  }
-  else
-  {
-    echo "Query failed...";
-  }
-}
+    public function delete($data) {
+        $delete = $this->con->query($data);
+
+        if ($delete) {
+            return true;
+        } else {
+            echo "Error: " . $this->con->error;
+            return false;
+        }
+    }
 }
 ?>

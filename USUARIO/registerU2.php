@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styleRusu2.css">
+    <script src="../GENERAL/scriptGeneral.js"></script>
     <title>Agora registrar</title>
 </head>
 <body>
@@ -61,6 +63,5 @@
 <footer id="foot">        
         
 </footer>
-<script src="../scriptGeneral.js"></script>
 </body>
 </html>
